@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "961638243596",
+    "firebase_url": "https://apnaapp-a01a5.firebaseio.com",
+    "project_id": "apnaapp-a01a5",
+    "storage_bucket": "apnaapp-a01a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961638243596:android:33c780358dfab510c23d29",
+        "android_client_info": {
+          "package_name": "com.example.apnaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961638243596-5skv1n1n9m5ar963g970d25o6acigobf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvMkWZxsnbztqBeTLT8vjbgm2bfd8_ddQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961638243596-5skv1n1n9m5ar963g970d25o6acigobf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

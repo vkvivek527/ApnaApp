@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp">
+    <RelativeLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_Notification"
+            android:layout_width="250dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/profile_image"
+            android:layout_centerHorizontal="true">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/name_nptification"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:text="User Name"
+            android:layout_below="@+id/image_Notification"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <Button
+            android:id="@+id/request_accept_btn"
+            android:layout_width="match_parent"
+            android:layout_below="@id/name_nptification"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:background="@color/colorPrimary"
+            android:text="Accept Request"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/request_decline_btn"
+            android:layout_width="match_parent"
+            android:layout_below="@id/request_accept_btn"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@android:color/holo_red_light"
+            android:text="Cancel Request"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            >
+
+        </Button>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
